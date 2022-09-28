@@ -1,0 +1,46 @@
+$first-color: rgb(255, 255, 255);
+$second-color: rgb(250, 97, 56);
+$third-color: rgb(0, 186, 177);
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Rubik', Arial, sans-serif;
+  line-height: 1.5;
+  padding-bottom: 1000px;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+nav {
+  background-color: $second-color;
+}
+
+.head-banner {
+  background-color: rgb(10, 0, 0);
+  padding-top: 200px;
+  padding-bottom: 200px;
+  margin-top: 65.5938px;
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  
+}
+
+@media screen and (min-width: 992px) {
+  
+}
+
+
+
