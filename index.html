@@ -12,19 +12,12 @@
       type="image/x-icon"
       href="./img/icon/m-alphabet-icon.svg"
     />
-    <!--GOOGLE FONTS-->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap"
-      rel="stylesheet"
-    />
-    <!-- Google Fonts -->
+    <!-- GOOGLE FONTS -->
     <link
       href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
       rel="stylesheet"
     />
-    <!-- Font Awesome -->
+    <!-- FONT AWESOME -->
     <link
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
       rel="stylesheet"
@@ -34,19 +27,12 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/5.0.0/mdb.min.css"
       rel="stylesheet"
     />
-    <!--FONT AWESOME-->
-    <script
-      src="https://kit.fontawesome.com/417a9f4ff2.js"
-      crossorigin="anonymous"
-    ></script>
   </head>
 
   <body>
-    <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-light fixed-top">
-      <!-- Container wrapper -->
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg fixed-top">
       <div class="container-fluid">
-        <!-- Navbar brand -->
         <a class="navbar-brand me-2" href="">
           <img
             src="./img/icon/m-alphabet-icon.svg"
@@ -61,19 +47,19 @@
           class="navbar-toggler"
           type="button"
           data-mdb-toggle="collapse"
-          data-mdb-target="#navbarButtonsExample"
-          aria-controls="navbarButtonsExample"
+          data-mdb-target="#navbar-buttons"
+          aria-controls="navbar-buttons"
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
           <i class="fas fa-bars"></i>
         </button>
         <!-- Collapsible wrapper -->
-        <div class="collapse navbar-collapse" id="navbarButtonsExample">
+        <div class="collapse navbar-collapse" id="navbar-buttons">
           <!-- Left links -->
           <ul class="navbar-nav me-lg-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link" href="#about-me">About Me</a>
+              <a class="nav-link first-links" href="#about-me">About Me</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#my-skills">Skills</a>
@@ -87,7 +73,7 @@
             <a
               data-mdb-ripple-color="dark"
               class="btn btn-outline-light ms-lg-auto"
-              href="#contact-form"
+              href="#contact-me-form"
               role="button"
               >Contact Me</a
             >
@@ -96,7 +82,179 @@
       </div>
     </nav>
     <!-- PROFILE -->
-    <header class="head-banner text-center"></header>
+    <header class="head-banner text-center bg-black">
+      <div class="container">
+        <div class="row">
+          <div class="mx-auto">
+            <img
+              src="./img/profile-picture/profile.jpg"
+              alt="Profile picture"
+              class="img-fluid rounded-circle mb-3"
+            />
+            <h2>Mohamed Mejri</h2>
+            <p>
+              Student
+              <a href="https://www.start2impact.it/" target="_blank"
+                >@start2impact University</a
+              >
+            </p>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- ABOUT ME -->
+    <section
+      class="about-me-section bg-dark text-center text-lg-start"
+      id="about-me"
+    >
+      <div class="container">
+        <div class="row mt-5">
+          <div class="col-lg-6 text-lg-end">
+            <img
+              src="./img/pictures-of-me/aboutme.jpg"
+              alt="Picture of Mohamed"
+              class="img-fluid rounded mb-4"
+            />
+          </div>
+          <div class="col-lg-6 my-lg-auto">
+            <h2>ABOUT ME</h2>
+            <p>
+              Hi everybody<br />
+              I’m Mohamed and I’m from Milan.<br />
+              After some disappointing work experiences I started to study web
+              development because I always dreamed about coding and working with
+              computers. The idea of building a web app from scratch fascinates
+              me, so I choose to give it a try.<br />
+              By now it is known that to be trustworthy, one must own a website,
+              so my goal is to help new realities emerge by increasing their
+              credibility and visibility.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section class="skills-section bg-black text-center" id="my-skills">
+      <div class="container">
+        <div class="row mt-5">
+          <h2 class="mb-3">
+            These are the languages I started to practise with
+          </h2>
+          <div class="col-lg-6 mb-4">
+            <div>
+              <h3>HTML</h3>
+              <i class="fab fa-html5 fa-2x"></i>
+            </div>
+          </div>
+          <div class="col-lg-6 mb-4">
+            <div>
+              <h3>CSS</h3>
+              <i class="fab fa-css3-alt fa-2x"></i>
+            </div>
+          </div>
+          <p>
+            I know it is not much, but soon I will add more langauges,
+            frameworks, skills and most importantly
+            <strong>my projects</strong>.<br />
+            I promise!
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- MY SOCIALS ICONS -->
+    <section class="socials-section bg-dark text-center" id="my-socials">
+      <div class="container">
+        <div class="row mt-5">
+          <div class="col-lg-6">
+            <div class="mb-4">
+              <h3>A glimpse into my life</h3>
+              <a
+                href="https://www.facebook.com/Mohamed.Mejri94"
+                target="_blank"
+                class="fab fa-facebook fa-2x me-5"
+              ></a>
+              <a
+                href="https://www.instagram.com/mejrimoo/"
+                target="_blank"
+                class="fab fa-instagram fa-2x"
+              ></a>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <h3>My works and career</h3>
+            <a
+              href="https://github.com/mejrimo"
+              target="_blank"
+              class="fab fa-github-alt fa-2x me-5"
+            ></a>
+            <a
+              href="https://www.linkedin.com/in/mohamed-mejri-925157234/"
+              target="_blank"
+              class="fab fa-linkedin-in fa-2x"
+            ></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT ME -->
+    <footer
+      class="contact-me-section bg-black text-center"
+      id="contact-me-form"
+    >
+      <div class="container">
+        <div class="row pt-5 pb-1">
+          <h3 class="mb-4">
+            Feel free to contact me for any doubt or if you want to collab
+          </h3>
+          <div class="col-lg-6 mx-auto">
+            <form
+              action="https://formsubmit.co/mejrimo.dev@gmail.com"
+              method="POST"
+            >
+              <div class="form-outline form-white mb-4">
+                <input
+                  type="text"
+                  name="name"
+                  id="form-name"
+                  class="form-control"
+                />
+                <label class="form-label" for="form-name">Name</label>
+              </div>
+              <div class="form-outline form-white mb-4">
+                <input
+                  type="email"
+                  name="email"
+                  id="form-mail"
+                  class="form-control"
+                  required
+                />
+                <label class="form-label" for="form-mail">Email address</label>
+              </div>
+              <div class="form-outline form-white mb-4">
+                <textarea
+                  class="form-control"
+                  name="message"
+                  id="form-message"
+                  rows="4"
+                  required
+                ></textarea>
+                <label class="form-label" for="form-message">Message</label>
+              </div>
+              <button
+                data-mdb-ripple-color="dark"
+                type="submit"
+                class="btn btn-block mb-4"
+              >
+                Send
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </footer>
 
     <!-- MDB -->
     <script
